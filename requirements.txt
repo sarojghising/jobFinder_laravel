@@ -1,0 +1,8 @@
+some of tables
+1. jobs
+2. companies
+3. users seeker/employer
+4. profiles
+5. categories
+
+
