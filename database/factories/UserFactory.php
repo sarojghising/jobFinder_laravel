@@ -70,6 +70,7 @@ $factory->define(Job::class,function(Faker $faker){
             'position' => $faker->jobTitle,
             'address' => $faker->address,
             'description' => $faker->paragraph(rand(2,10)),
+            'roles' => $faker->text,
             'category_id' => Category::all()->random()->id,
             'status' => rand(0,1),
             'type' => 'fulltime',
